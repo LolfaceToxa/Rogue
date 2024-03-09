@@ -1,0 +1,41 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SimplySettings",
+	"Description": "",
+	"Category": "Settings",
+	"CreatedBy": "Phoinix-Dev",
+	"CreatedByURL": "https://gitlab.com/Phoinix-Dev",
+	"DocsURL": "https://gitlab.com/Phoinix-Dev/simply-settings",
+	"MarketplaceURL": "",
+	"SupportURL": "https://discord.gg/S7NuQa8Aeb",
+	"EngineVersion": "5.3.0",
+	"CanContainContent": true,
+	"IsExperimentalVersion": true,
+	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64"
+	],
+	"Modules": [
+		{
+			"Name": "SimplySettings",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"AdditionalDependencies": [
+				"EnhancedInput"
+			]
+		},
+		{
+			"Name": "SimplySettingsEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		}
+	]
+}
