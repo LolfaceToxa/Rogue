@@ -12,6 +12,10 @@
 			]
 		},
 		{
+			"Name": "SkeletalMeshModelingTools",
+			"Enabled": true
+		},
+		{
 			"Name": "SimplyWindow",
 			"Enabled": true
 		},
@@ -21,10 +25,6 @@
 			"SupportedTargetPlatforms": [
 				"Win64"
 			]
-		},
-		{
-			"Name": "SkeletalMeshModelingTools",
-			"Enabled": true
 		}
 	]
 }
