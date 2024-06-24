@@ -1,29 +1,40 @@
-{
+	{
 	"FileVersion": 3,
 	"EngineAssociation": "5.3",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "ModelingToolsEditorMode",
+			"Name": "SimplySettings",
 			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
+			"SupportedTargetPlatforms": [
+				"Win64"
 			]
-		},
-		{
-			"Name": "SkeletalMeshModelingTools",
-			"Enabled": true
 		},
 		{
 			"Name": "SimplyWindow",
 			"Enabled": true
 		},
 		{
-			"Name": "SimplySettings",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64"
+			"Name": "SkeletalMeshModelingTools",
+			"Enabled": true
+		},
+		{
+			"Name": "StaticMeshEditorModeling",
+			"Enabled": true
+		},
+		{
+			"Name": "RefreshAllNodes",
+			"Enabled": true
+		}
+	],
+	"Modules": [
+		{
+			"Name": "Rogue",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
 			]
 		}
 	]
